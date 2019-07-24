@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tieude i {
+    float: right;
+    transform: translateX(60px);
+    transition: 0.3s;
+}
+
+.tieude:hover i {
+    transform: translateX(-20px);
+}
+
+p.mota {
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+h3.tieude {
+    font-size: 40px;
+    padding: 24px  0;
+    font-family: segoe ui;
+    cursor: pointer;
+}
+
+.motkhoi {
+    border-bottom: 0.5px solid #1276b9;
+}
+
+.motkhoi {
+    overflow: hidden;
+}
+
+body {
+    background-image: url(https://tympanus.net/Tutorials/FlexibleSlideToTopAccordion/images/pattern.png);
+}
+
+.khoito {
+    width: 700px;
+    margin: auto;
+}
+.xanh{
+    color: rgb(194, 55, 101);
+}
+.xoay{
+    transform: rotate(-180deg)!important;
+    margin-right: 20px!important;
+    display: block!important;
+}
